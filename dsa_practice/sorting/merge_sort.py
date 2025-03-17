@@ -1,6 +1,4 @@
 
-
-
 def merge(list1, list2):
     combined = []
 

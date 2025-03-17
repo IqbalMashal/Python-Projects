@@ -15,7 +15,7 @@ class LinkedList:
     def print_list(self):
         temp = self.head
         while temp is not None:
-            print(temp.value)
+            print(temp.value, end=' -> ')
             temp = temp.next
 
     def append(self, value):
@@ -198,17 +198,23 @@ def find_kth_from_end(linkedList, value):
 
 
 
- 
-my_linked_list1 = LinkedList(4)
-my_linked_list1.append(5)
-my_linked_list1.prepend(6)
+print('-'* 50)
+print('\n\n')
 
+my_linked_list1 = LinkedList(4)
+my_linked_list1.prepend(9)
+my_linked_list1.prepend(7)
+my_linked_list1.prepend(5)
+my_linked_list1.prepend(3)
+my_linked_list1.prepend(1)
+my_linked_list1.prepend(2)
 my_linked_list1.print_list()
 
-print('Head:', my_linked_list1.head.value)
-print('Tail:', my_linked_list1.tail.value)
-print('Length:', my_linked_list1.length)
-print('----------------')
+print('\n\n')
+# print('Head:', my_linked_list1.head.value)
+# print('Tail:', my_linked_list1.tail.value)
+# print('Length:', my_linked_list1.length)
+print('-'* 50)
 
 
                                                                                                                     

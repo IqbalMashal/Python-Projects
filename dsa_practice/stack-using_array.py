@@ -33,6 +33,7 @@ my_stack = Stack()
 my_stack.push(1)
 my_stack.push(2)
 my_stack.push(3)
+print(my_stack.peek())
 
 print("Stack before pop():")
 my_stack.print_stack()
